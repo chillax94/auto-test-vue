@@ -8,6 +8,8 @@ export default {
     logs: 'logs',
     example: 'example',
     table: 'table',
+    usercase: 'usercase',
+    userscene: 'userscene',
 
     employees: 'employees',
     employeesList: 'employees',

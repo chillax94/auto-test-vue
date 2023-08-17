@@ -7,10 +7,6 @@
               <span slot="label">角色管理</span>
               <component v-bind:is="roleList"></component>
             </el-tab-pane>
-            <el-tab-pane name="companyInfo" class="rInfo">
-              <span slot="label">公司信息</span>
-              <component v-bind:is="roleList"></component>
-            </el-tab-pane>
         </el-tabs>
       </div>
     </div>
@@ -29,7 +25,7 @@ export default {
     }
   },
   methods: {
- 
+
   }
 }
 </script>

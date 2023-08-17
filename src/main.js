@@ -20,6 +20,8 @@ import departments from '@/module-departments/' // 企业管理
 import employees from '@/module-employees/' // 企业管理
 import settings from '@/module-settings/'
 import permissions from '@/module-permissions/'
+import usercase from '@/module-usercase/'
+import userscene from '@/module-userscene/'
 
 import tools from './utils/common.js'
 Vue.prototype.$tools = tools
@@ -27,10 +29,11 @@ Vue.prototype.$tools = tools
 Vue.use(tools)
 Vue.use(dashboard, store)
 Vue.use(departments,store)
-Vue.use(employees,store)
 Vue.use(settings,store)
+Vue.use(employees,store)
+Vue.use(userscene,store)
+Vue.use(usercase,store)
 Vue.use(permissions,store)
-
 
 /*
 * 注册 - 组件
